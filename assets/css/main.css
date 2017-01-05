@@ -1011,9 +1011,23 @@ h3 {
   font-weight: 300;
   color: #958279;
   margin-bottom: 50px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+ }
   .biglink:hover {
     color: #aa7869; }
+
+@media (max-width: 820px) {
+  .biglink {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .biglink {
+    font-size: 20px;
+    overflow: hidden;
+  }
+}
 
 a[class^="icon-"] {
   font-family: 'FontAwesome';
