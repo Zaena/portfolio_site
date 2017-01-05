@@ -151,7 +151,7 @@ td, th {
 @font-face {
   font-family: 'FontAwesome';
   font-style: normal;
-  src: url(/fonts/fontawesome-webfont.woff) format("woff"); }
+  src: url(../../fonts/fontawesome-webfont.woff) format("woff"); }
 
 .thumb-container .thumb-unit:hover .thumb-overlay, .clients-belt .client-unit {
   -webkit-animation: animation 750ms linear both;
@@ -426,7 +426,7 @@ header nav a, header .kicker, h3, footer .lockup .content-wrap a {
   text-transform: uppercase; }
 
 header {
-  background: url(../../logo.svg) no-repeat, url(/img/hero-bg.png) center center;
+  background: url(../../logo.svg) no-repeat, url(../../img/hero-bg.png) center center;
   background-size: 50px 50px, cover;
   background-position: 20px 20px, 50% 60%;
   padding-bottom: 100px; }
@@ -512,7 +512,7 @@ h3 {
   .face-lockup .face-img {
     height: 200px;
     width: 200px;
-    background: url(/img/face.png);
+    background: url(../../img/face.png);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -686,21 +686,21 @@ h3 {
     perspective: 300;
     cursor: pointer; }
     .thumb-container .thumb-unit#proj1 {
-      background-image: url(/img/work/proj-1/thumb.jpg); }
+      background-image: url(../../img/work/proj-1/thumb.jpg); }
     .thumb-container .thumb-unit#proj2 {
-      background-image: url(/img/work/proj-2/thumb.jpg); }
+      background-image: url(../../img/work/proj-2/thumb.jpg); }
     .thumb-container .thumb-unit#proj3 {
-      background-image: url(/img/work/proj-3/thumb.jpg); }
+      background-image: url(../../img/work/proj-3/thumb.jpg); }
     .thumb-container .thumb-unit#proj4 {
-      background-image: url(/img/work/proj-4/thumb.jpg); }
+      background-image: url(../../img/work/proj-4/thumb.jpg); }
     .thumb-container .thumb-unit#proj5 {
-      background-image: url(/img/work/proj-5/thumb.jpg); }
+      background-image: url(../../img/work/proj-5/thumb.jpg); }
     .thumb-container .thumb-unit#proj6 {
-      background-image: url(/img/work/proj-6/thumb.jpg); }
+      background-image: url(../../img/work/proj-6/thumb.jpg); }
     .thumb-container .thumb-unit#proj7 {
-      background-image: url(/img/work/proj-7/thumb.jpg); }
+      background-image: url(../../img/work/proj-7/thumb.jpg); }
     .thumb-container .thumb-unit#proj8 {
-      background-image: url(/img/work/proj-8/thumb.jpg); }
+      background-image: url(../../img/work/proj-8/thumb.jpg); }
     @media screen and (max-width: 760px) {
       .thumb-container .thumb-unit {
         width: 50%;
@@ -1007,10 +1007,11 @@ h3 {
 
 .biglink {
   display: inline-block;
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 300;
   color: #958279;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  text-transform: uppercase; }
   .biglink:hover {
     color: #aa7869; }
 
@@ -1076,7 +1077,7 @@ form {
       display: block; }
 
 footer {
-  background: url(../../logo.svg) no-repeat, url(/img/hero-bg.png) center center;
+  background: url(../../logo.svg) no-repeat, url(../../img/hero-bg.png) center center;
   background-size: 50px 50px, cover;
   background-position: 30px 50px, 50% 60%;
   background-blend-mode: overlay, normal; }
